@@ -32,7 +32,7 @@ namespace GradeBook.GradeBooks
             }
             else if (averageGrade >= grades[threshold * 3 - 1])
             {
-                return 'c';
+                return 'C';
             }
             else if (averageGrade >= grades[threshold * 4 - 1])
             {
